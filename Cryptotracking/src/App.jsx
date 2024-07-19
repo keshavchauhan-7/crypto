@@ -5,7 +5,6 @@ import Home from './pages/Home/Home'
 import Coin from './pages/Coin/Coin'
 
 
-
 const App = () => {
   return (
     <div className='app'>
@@ -13,7 +12,7 @@ const App = () => {
 
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/' element={<Coin />} />
+        <Route path='/coin/:coinId' element={<Coin />} />
       </Routes>
     </div>
   )
