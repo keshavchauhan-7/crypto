@@ -182,3 +182,58 @@
     }
   }
   
+
+  .coin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .coin-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .coin-name img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .coin-name p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .coin-chart {
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .coin-info {
+    width: 100%;
+  }
+  
+  .coin-info ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0;
+    border-bottom: 1px solid #5f5d5f;
+    list-style: none;
+  }
+  
+  .coin-info ul li {
+    font-size: 16px;
+  }
+  
+  .coin-info ul li:first-child {
+    font-weight: bold;
+  }
+  
